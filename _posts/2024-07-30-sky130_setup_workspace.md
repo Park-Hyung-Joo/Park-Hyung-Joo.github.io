@@ -38,7 +38,8 @@ These paths are the default template paths for the example code in laygo2.
 
 **Step 3: Test laygo2**
 
-**Note:** Several package prerequisites (such as NumPy) should be installed for LAYGO2. The base installation of Anaconda fulfills the package requirements.
+> Several package prerequisites (such as NumPy) should be installed for LAYGO2. The base installation of Anaconda fulfills the package requirements.
+{: .prompt-info }
 
 ```bash
 $ source .bashrc

@@ -6,7 +6,8 @@ tags: [sky130,magic,netgen,xschem]     # TAG names should always be lowercase, ë
 ---
 ------------------------------------------
 
-**Note:** This tutorial requires sudo access. If you are not the owner of the server or system, you should use a virtual machine or Docker.
+> This tutorial requires sudo access. If you are not the owner of the server or system, you should use a virtual machine or Docker.
+{: .prompt-info }
 
 **Notation Guides:**
 
@@ -19,7 +20,8 @@ tags: [sky130,magic,netgen,xschem]     # TAG names should always be lowercase, ë
 
 1.  **Install dependent packages**
 
-    **Note:** CentOS uses `yum` instead of `apt-get` for package management. Package names could be slightly different.
+    > CentOS uses `yum` instead of `apt-get` for package management. Package names could be slightly different.
+    {: .prompt-info }
 
     ```bash
     $ sudo apt-get install m4
@@ -45,7 +47,8 @@ tags: [sky130,magic,netgen,xschem]     # TAG names should always be lowercase, ë
     $ git clone https://github.com/RTimothyEdwards/magic
     ```
 
-    **Note:** The command `apt-get install magic` installs an outdated version!
+    > The command `apt-get install magic` installs an outdated version!
+    {: .prompt-warning }
 
 3.  **Compile and Install**
 
@@ -79,6 +82,7 @@ tags: [sky130,magic,netgen,xschem]     # TAG names should always be lowercase, ë
 1.  **XSCHEM**
 
     Install the following packages using `sudo apt-get install`
+    
     ![xschem_dependencies](./assets/img/xschem_require.png)
 
     Clone the XSCHEM source and install:
